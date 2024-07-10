@@ -1,2 +1,2 @@
 # BOS
-"Язык программирования" BOS (Binary Operation System)
+"Язык программирования" BOS (Boolean Operation System)
