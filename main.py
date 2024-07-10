@@ -75,15 +75,12 @@ def operation_parser(operation_str):
             operation_str = operation_str.replace(f'{valA_name}_l_{valB_name}', str(operations._less(valA, valB)))
     while '_me_' in operation_str or '_le_' in operation_str:
         if '_me_' in operation_str:
-            print(operation_str)
             index = operation_str.index('_me_')
             valA_name = operation_str[index - 1]
             valA = (False if valA_name == '0' else True)
             valB_name = operation_str[index + 4]
             valB = (False if valB_name == '0' else True)
-            print(valA, valB, operations._me(valA, valB))
             operation_str = operation_str.replace(f'{valA_name}_me_{valB_name}', str(operations._me(valA, valB)))
-            print(operation_str)
         if '_le_' in operation_str:
             index = operation_str.index('_le_')
             valA_name = operation_str[index - 1]
