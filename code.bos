@@ -1,0 +1,14 @@
+v A 0
+v B 1
+v C !A          # !A, -A
+v D A_a_B       # A&b
+v E A_o_B       # A|B
+v F A_x_B       # A||B
+v G _nA_o_B     # !A|B
+v H A_e_B       # A==B
+v I A_ne_B      # A!=B
+v J A_m_B       # A>B
+v K A_l_B       # A<B
+v L A_me_B      # A>=B
+v M A_le_B      # A<=B
+o C D E F G H I J K L M
