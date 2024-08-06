@@ -30,5 +30,3 @@ _me = lambda a, b: _or(_more(a, b), _eq(a, b))
 
 # a <= b
 _le = lambda a, b: _or(_less(a, b), _eq(a, b))
-
-print(_me(0, 1))
